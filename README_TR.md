@@ -38,7 +38,7 @@ Agent'lar, command'lar, skill'ler, `CLAUDE.md`, MCP sunucularÄ± ve izin ayarlarÄ
 ## Kurulum
 
 ```bash
-git clone https://github.com/your-username/claude-to-opencode-ts.git
+git clone https://github.com/CengizKuscu/claude-to-opencode.git
 cd claude-to-opencode-ts
 npm install
 npm run build
