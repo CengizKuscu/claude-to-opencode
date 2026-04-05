@@ -1,0 +1,39 @@
+{
+  "name": "claude-to-opencode",
+  "version": "1.0.0",
+  "description": "CLI tool to convert Claude Code projects to OpenCode format",
+  "main": "dist/index.js",
+  "bin": {
+    "claude-to-opencode": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "claude",
+    "opencode",
+    "migration",
+    "cli",
+    "ai-agents"
+  ],
+  "author": "Cengiz KUŞCU",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "gray-matter": "^4.0.3",
+    "inquirer": "^10.2.2",
+    "ora": "^8.1.1",
+    "yaml": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
